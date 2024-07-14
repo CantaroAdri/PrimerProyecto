@@ -1,0 +1,220 @@
+
+.logo {
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    z-index: -10;   
+}
+
+.logo p{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    left: 46%;
+    top: -65px;
+    font-family: "DM Serif Display", serif;
+   
+}
+
+.logo span{
+    color: white;
+    margin: 30px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    position: relative;
+    width: 250px;
+    height: 114px;
+    left: 155px;
+}
+
+/* USUARIOS */
+
+#sesion{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -90px;
+    left: 1050px;
+}
+
+#sesion:hover{
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+}
+
+#InicioSesion{
+    position: relative;
+    color: white;
+    top: -90px;
+    left: 1090px;
+}
+
+
+#candado{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -90px;
+    left: 1210px;
+}
+
+#Registrarse{
+    position: relative;
+    color: white;
+    top: -90px;
+    left: 1120px;
+}
+
+#Registrarse a{
+    color: white;
+    text-decoration: none;
+}
+
+#candado:hover{
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+}
+
+#InicioSesion a{
+    color: white;
+    text-decoration: none;
+}
+
+/* REDES SOCIALES */
+
+#facebook{
+    background-color: white;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 53PX;
+    left: 25px;
+}
+
+#instagram{
+    background-color: white;
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    top: 55PX;
+    left: 145px;
+}
+
+#whatsapp{
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 52PX;
+    left: 300px;
+}
+
+/* SEGUNDO MENU TIENDA */
+
+.linkInicio {
+    position: relative;
+    left: 385px;
+    top: -30px;
+    margin: 35px;
+    padding: 20px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.linkInicio:hover {
+    background-color: rgb(92, 143, 92);
+    color: white;
+}
+
+#CasaInicio{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 550px;
+    top: -50px;
+    border: 2px solid black ;
+    border-radius: 100px;
+
+}
+
+
+/* IMAGEN DE FONDO */
+
+.img_Fondo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -50px;
+    z-index: -10;
+}
+
+.img_Fondo a{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    top: -990px;
+    left: 595px;
+    
+}
+
+/* formulario */
+
+#fondo-usu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 120px;
+}
+
+.formulario{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    top: -850px; 
+
+    padding: 50px;
+    margin: auto;
+    border: 1PX solid black;
+    box-shadow: 3px 3px 13px 13px rgb(63, 63, 63);
+}
+
+.formulario p{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    left: 130px;
+    top: -40px;
+}
+
+.formulario input{
+    position: relative;
+    border: 1px solid black;
+    width: 400px;
+    height: 45px;
+    margin-top: 20px;
+    left: 25px;
+    top: -50px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#boton{
+    position: relative;
+    width: 120px;
+    left: 180px;
+    box-shadow: 3px 3px rgb(63, 63, 63); 
+}

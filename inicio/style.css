@@ -1,0 +1,422 @@
+
+.logo {
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    z-index: -10;   
+}
+
+.logo p{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    left: 46%;
+    top: -65px;
+    font-family: "DM Serif Display", serif;
+   
+}
+
+.logo span{
+    color: white;
+    margin: 30px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    position: relative;
+    width: 250px;
+    height: 114px;
+    left: 155px;
+}
+
+/* USUARIOS */
+
+#sesion{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -90px;
+    left: 1050px;
+}
+
+#sesion:hover{
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+}
+
+#InicioSesion{
+    position: relative;
+    color: white;
+    top: -90px;
+    left: 1090px;
+}
+
+
+#candado{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -90px;
+    left: 1210px;
+}
+
+#Registrarse{
+    position: relative;
+    color: white;
+    top: -90px;
+    left: 1120px;
+}
+
+#Registrarse a{
+    color: white;
+    text-decoration: none;
+}
+
+#candado:hover{
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+}
+
+/* REDES SOCIALES */
+
+#facebook{
+    background-color: white;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 53PX;
+    left: 25px;
+}
+
+#instagram{
+    background-color: white;
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    top: 55PX;
+    left: 145px;
+}
+
+#whatsapp{
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 52PX;
+    left: 300px;
+}
+
+/* SEGUNDO MENU TIENDA */
+
+.linkInicio {
+    position: relative;
+    left: 275px;
+    top: -30px;
+    margin: 35px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.linkInicio:hover {
+    background-color: rgb(92, 143, 92);
+    color: white;
+}
+
+#CasaInicio{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 410px;
+    top: -50px;
+}
+
+.linkTienda{
+    position: relative;
+    left: 260px;
+    top: -30px;
+    margin: 35px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#carrito{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 400px;
+    top: -50px;
+}
+
+.linkTienda:hover {
+    background-color: #eee;
+    color: black;
+}
+
+#microscopio{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 400px;
+    top: -46px;
+}
+
+.linkCurso{
+    position: relative;
+    left: 260px;
+    top: -30px;
+    margin: 35px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.linkCurso:hover {
+    background-color: red;
+    color: white;
+}
+
+#cursos a{
+    text-decoration: none;
+    color: black;
+}
+
+/* COTIZACIONES */
+
+.cotizaciones{
+    position: relative;
+    width: 350px;
+    top: 10px;
+    left: 50px;
+    font-size: 55px;
+}
+
+.Principal img{
+    position: relative;
+    width: 650px;
+    height: 400px;
+    top: -300px;
+    left: 550px;
+}
+
+.Principal a{
+    position: relative;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    top: 50px;
+    left: 75px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 12px;
+
+}
+
+.fondoGris img{
+    position: relative;
+    top: -710px;
+    left: 25px;
+    width: 1300px;
+    height: 400px;
+    z-index: -10;
+}
+
+
+/* PRIMER SLADER DE IMAGENES */
+
+#slider{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    margin-left: 90px;
+    padding-top: 80px;
+    top: -500px;
+    text-align: center;
+    background-color: #b8b4b4;
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#contenedor{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100% 100% 100% ;
+    animation-name: mover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#imagen1{
+    position: relative;
+    background-image: url(slader/win\ 1.jpg);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    top: -100px;
+}
+
+#imagen2{
+    position: relative;
+    background-image: url(slader/win\ 2.jpg);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    top: -140px;
+}
+
+#imagen3{
+    position: relative;
+    background-image: url(slader/win\ 3.jpg);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    top: -140px;
+}
+
+h2{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 12%;
+    font-family: popping;
+    font-size: 2em;
+    text-align: center;
+}
+
+@keyframes mover {
+    25%{
+        margin-left: 0%;
+    }
+    28%{
+        margin-left: -100%;
+    }
+
+    54%{
+        margin-left: -100%;
+    }
+    58%{
+        margin-left: -200%;
+    }
+
+    84%{
+        margin-left: -200%;
+    }
+    90%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+
+/* SEGUNDO SLADER DE IMAGENES */
+
+#slider2{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    margin-left: 700px;
+    padding-top: 80px;
+    top: -835px;
+    text-align: center;
+    background-color: #b8b4b4;
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#contenedor2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100% 100% 100% ;
+    animation-name: mover;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+#imagen4{
+    position: relative;
+    background-image: url(slader/win\ 4.jpg);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    top: -100px;
+}
+
+#imagen5{
+    position: relative;
+    background-image: url(slader/win\ 5.jpg);
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    top: -160px;
+}
+
+#imagen6{
+    position: relative;
+    background-image: url(slader/win\ 6.jpg);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    top: -110px;
+}
+
+h2{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 12%;
+    font-family: popping;
+    font-size: 2em;
+    text-align: center;
+}
+
+@keyframes mover {
+    25%{
+        margin-left: 0%;
+    }
+    28%{
+        margin-left: -100%;
+    }
+
+    54%{
+        margin-left: -100%;
+    }
+    58%{
+        margin-left: -200%;
+    }
+
+    84%{
+        margin-left: -200%;
+    }
+    90%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
